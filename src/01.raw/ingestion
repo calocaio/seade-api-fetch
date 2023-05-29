@@ -1,0 +1,8 @@
+import requests
+import json
+
+
+url = 'https://www.tabnews.com.br/api/v1/contents'
+resp = requests.get(url)
+data = resp.json()
+data

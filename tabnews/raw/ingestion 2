@@ -1,0 +1,12 @@
+import requests #para ler URL
+import boto3
+import json
+import datetime
+
+url = "https://api-imp.seade.gov.br/v1/dados/4/3/2010"
+resp = requests.get(url)
+data = resp.json()
+data
+
+#%%
+http://api-perfil.seade.gov.br/v1/tema/{codigo}
